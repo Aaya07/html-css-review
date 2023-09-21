@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   color: #fff;
   line-height: 1.5;
   margin: 0;
@@ -17,10 +17,34 @@ body {
 
 /* headings */
 
+/*Did you mean h1 to h3 or only h1 and h3?*/
+/*how to do the bold for text*/
+/*what are the size number for the h1-h3? or we have to guess the size based on the picture*/
+/*how to do the fade for the text shadow*/
+/*is it Nunito Sans or Nunio only?*/
+
+
+h1{
+font-size: 5.5rem;
+text-transform: uppercase;
+text-shadow: 3px 2px 8px rgba(0, 0 , 0 , 0.5);
+font-family: "wix madefor display";
+}
+
+h2{
+  font-size: 3.5rem;
+  font-family: "wix madefor display";
+
+}
+
+h3{
+    font-size: 1.5rem;
+}
 
 #company-name {
-  color: #DEC9E9;
-  font-size: 1.5rem;
+color: #DEC9E9;
+font-size: 1.5rem;
+
 }
 
 
@@ -75,7 +99,6 @@ nav ul li a:focus {
 
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 #intro {
@@ -84,6 +107,7 @@ nav ul li a:focus {
 
 #intro p {
   max-width: 50%;
+  font-size: 1.2rem;
 }
 
 #fan-fav {
@@ -129,9 +153,6 @@ nav ul li a:focus {
   padding: 2em 0;
   text-align: center;
 
-  /* display: flex;
-  flex-direction: column;
-  align-items:center; */
 }
 
 .team-grid article img {
@@ -153,7 +174,7 @@ nav ul li a:focus {
 footer {
   background-color: #000;
   text-align: center;
-  padding: 1em 0;
+  padding: 2em 0;
 }
 
 
